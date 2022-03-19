@@ -133,7 +133,10 @@
               </p>
             {%- endif -%}
 
+            <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgb(150, 150, 150);">
             {% render 'price', product: card_product, price_class: '' %}
+            <div><h3 style="color: red; font-weight: 500;">Add</h3></div>
+            </div>
           </div>
         </div>
         <div class="card__badge {{ settings.badge_position }}">

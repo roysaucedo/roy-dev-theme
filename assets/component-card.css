@@ -153,6 +153,7 @@
 
 .card__heading {
   margin-top: 0;
+  font-weight: 600;
 }
 
 .card__heading:last-child {
